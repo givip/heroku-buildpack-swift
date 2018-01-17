@@ -5,5 +5,5 @@ if ! [ -d "$SWIFT_PREFIX" ]; then
   VERSION="$(env DONT_CHECK=true swiftenv version-name)"
   puts-step "Installing $VERSION"
   swiftenv install 4.0
-  swiftenv install 3.2
+  swiftenv install 3.1.1
 fi
